@@ -4,7 +4,7 @@ def welcome
 end
 
 def deal_card
-  rand(1..11)
+  card_total = rand(1..11)
   # code #deal_card here
 end
 
@@ -29,7 +29,7 @@ def end_game(card_total)
 end
 
 def initial_round
-sum = rand(1..11) + rand(1.11)
+sum = deal_card + deal_card
 puts display_card_total(sum)
   # code #initial_round here
 end
