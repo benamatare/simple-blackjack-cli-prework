@@ -37,6 +37,7 @@ prompt_user
 else get_user_input != 'h' || get_user_input != 's'
   invalid_command
 end
+card_total
 end
 
 def invalid_command
