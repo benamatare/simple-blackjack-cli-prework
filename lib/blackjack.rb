@@ -8,7 +8,7 @@ end
 
 def display_card_total(card_total)
   puts"Your cards add up to #{card_total}"
-end
+
   # code #display_card_total here
 end
 
@@ -43,4 +43,3 @@ end
 def runner
   # code runner here
 end
-    
