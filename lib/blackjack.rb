@@ -25,7 +25,7 @@ def end_game(card_total)
 end
 
 def initial_round
-sum = deal_card + deal_card
+sum = rand(1..11) + rand(1..11)
 puts display_card_total(sum)
   # code #initial_round here
 end
