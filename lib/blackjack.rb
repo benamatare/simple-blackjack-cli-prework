@@ -26,7 +26,7 @@ end
 
 def initial_round
 sum = rand(1..11) + rand(1..11)
-puts display_card_total(sum)
+
   # code #initial_round here
 end
 
