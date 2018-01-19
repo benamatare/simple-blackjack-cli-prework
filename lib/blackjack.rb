@@ -34,11 +34,13 @@ puts display_card_total(sum)
   # code #initial_round here
 end
 
-def hit?
+def hit?(initial_round)
+  prompt_user
   # code hit? here
 end
 
 def invalid_command
+  puts "Please run a valid command."
   # code invalid_command here
 end
 
