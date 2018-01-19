@@ -33,10 +33,7 @@ puts display_card_total(sum)
 end
 
 def hit?(initial_round)
-  prompt_user
-  get_user_input
-  if get_user_input == 's'
-    return initial_round
+
   # code hit? here
 end
 
